@@ -98,7 +98,9 @@ a {
     flex: 1;
 }
 
-#card .plan h3 {
+#card .plan span:first-child {
+    font-weight: 900;
+    color: #000;
     margin-bottom: 15px;
 }
 
@@ -110,6 +112,11 @@ a {
     text-decoration: underline;
     color: var(--bright-blue);
     font-weight: 700;
+}
+
+#card .plan a:hover {
+    color: var(--bright-blue-hover);
+    text-decoration: none;
 }
 
 #card .btn {
